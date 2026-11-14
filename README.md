@@ -1,6 +1,6 @@
 # usb-headphone-amp
 
-Three revisions of a USB headphone amp / soundcard that I made in KiCad. Each one is basically an upgrade of the last.
+Three revisions of a USB headphone amp / soundcard that I made in KiCad.
 
 Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmware.
 
