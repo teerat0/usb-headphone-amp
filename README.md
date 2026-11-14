@@ -19,18 +19,5 @@ Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmwar
 
 **V3** (`v3/`)
 - Same as V2, but the PCM2706 is gone
-- An STM32F411 does the USB audio instead (TinyUSB, acts as a USB to I2S device)
+- To get higher sample rates / bit depth, an STM32F411 does the USB audio instead (TinyUSB, UAC1.0 device)
 - `v3/hardware/` = KiCad, `v3/firmware/` = STM32CubeIDE project
-
-## Quick comparison
-
-| | USB to I2S | DAC | Analog stage | Status |
-|---|---|---|---|---|
-| V1 | PCM2706 | PCM5102 | NE5532 | TODO |
-| V2 | PCM2706 | PCM5102 | OPA1656 + BUF634 | TODO |
-| V3 | STM32F411 | PCM5102 | OPA1656 + BUF634 | WIP |
-
-## Notes
-
-- This is a hobby project, nothing here is guaranteed to work. Check the schematics before you order boards.
-- No gerbers in the repo, just the KiCad source files.
