@@ -10,7 +10,7 @@ Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmwar
 - USB to I2S bridge: TI PCM2706
 - I2S DAC: TI PCM5102
 - Amp stages: TI NE5532
-- Separate power board: TI TPS65131 makes +-15V, then linear regulators bring it down to +-12V
+- Separate power board for amplifier: TI TPS65131 makes +-15V, then linear regulators bring it down to +-12V
 
 **V2** (`v2/`)
 - Same digital stage as V1 (PCM2706 + PCM5102)
