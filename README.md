@@ -16,6 +16,7 @@ Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmwar
 - Same digital stage as V1 (PCM2706 + PCM5102)
 - New analog stage: TI OPA1656 for gain, TI BUF634 as the output buffer
 - Power supply is now TI LM27762, on the same board.
+- Much smaller footprint
 
 **V3 (Work in progress)** (`v3/`)
 - Same as V2, but some small PCB layout changes and the PCM2706 is gone
