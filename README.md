@@ -7,15 +7,15 @@ Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmwar
 ## The versions
 
 **V1** (`v1/`)
-- USB to I2S: PCM2706
-- DAC: PCM5102
-- Amp: NE5532
-- Separate power board: TPS65131 makes +-15V, then linear regulators bring it down to +-12V
+- USB to I2S bridge: TI PCM2706
+- I2S DAC: TI PCM5102
+- Amp stages: TI NE5532
+- Separate power board: TI TPS65131 makes +-15V, then linear regulators bring it down to +-12V
 
 **V2** (`v2/`)
 - Same digital stage as V1 (PCM2706 + PCM5102)
-- New analog stage: OPA1656 for gain, BUF634 as the output buffer
-- Power supply is now LM27762, on the same board.
+- New analog stage: TI OPA1656 for gain, TI BUF634 as the output buffer
+- Power supply is now TI LM27762, on the same board.
 
 **V3** (`v3/`)
 - Same as V2, but the PCM2706 is gone
