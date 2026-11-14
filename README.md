@@ -17,7 +17,7 @@ Each folder has the KiCad files (schematic + PCB). V3 also has the STM32 firmwar
 - New analog stage: TI OPA1656 for gain, TI BUF634 as the output buffer
 - Power supply is now TI LM27762, on the same board.
 
-**V3** (`v3/`)
-- Same as V2, but the PCM2706 is gone
+**V3 (Work in progress)** (`v3/`)
+- Same as V2, but some small PCB layout changes and the PCM2706 is gone
 - To get higher sample rates / bit depth, an STM32F411 does the USB audio instead (TinyUSB, UAC1.0 device)
 - `v3/hardware/` = KiCad, `v3/firmware/` = STM32CubeIDE project
